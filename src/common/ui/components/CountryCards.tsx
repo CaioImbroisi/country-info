@@ -1,3 +1,5 @@
+// componente de exibicao dos cards / tabela de resultados de busca
+
 import React, { useState } from 'react';
 import { Country } from "../../utils/getCountries.tsx"
 import CountryHistory from './CountryHistory.tsx';
@@ -27,6 +29,7 @@ const CountryCards: React.FC<Country> = (country) => {
                     Card
                 </label>
             </div>
+            
             {country.name ? (
                 !showTable ? (
                     <div className="flex  bg-gray-700">

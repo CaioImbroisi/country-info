@@ -1,3 +1,4 @@
+//componente efetivo de buscas
 import React, { useState, useEffect } from "react"
 import getCountries from "../../utils/getCountries.tsx"
 import { Country } from "../../utils/getCountries.tsx"
@@ -26,6 +27,7 @@ const SearchCountries = () => {
     const search = async () => {
         try {
             setErrorMsg("")
+            //URLParams utiliza a url atual para determinar parametro na guncao getCountries
             const URLParams = new URLSearchParams(location.search);
             const [response]: any = await getCountries(!inputValue && location.search ? (URLParams.get('s')) : (inputValue))
             setCountry(response)

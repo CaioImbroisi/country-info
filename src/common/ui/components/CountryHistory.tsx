@@ -1,3 +1,4 @@
+//componente de armazenamento do histórico (localStorage) de buscas
 import React, { useEffect, useState } from 'react'
 import { CSVLink } from 'react-csv'
 

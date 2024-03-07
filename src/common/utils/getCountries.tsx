@@ -9,7 +9,7 @@ export interface Country {
     flags: string;
     maps: string;
 }
-
+// função utilizada para fazer requisição na API restcountries
 const getCountries = async (countryName) => {
     try {
         const response = await axios.get<Country>(`https://restcountries.com/v3.1/name/${countryName}`);
