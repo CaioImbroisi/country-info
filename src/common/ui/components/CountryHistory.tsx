@@ -22,7 +22,7 @@ const CountryHistory = () => {
 const csvData = history?.map(item => ({
     countryName: item.countryName,
     searchLink: item.searchLink
-}))
+})) || []
 
     const getLocalStorageItems = () => {
         const result: LocalStorageItems[] = []

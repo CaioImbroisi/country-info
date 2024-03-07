@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Country } from "../../utils/getCountries.tsx"
 import CountryHistory from './CountryHistory.tsx';
 

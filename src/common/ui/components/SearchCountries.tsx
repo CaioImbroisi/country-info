@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import getCountries from "../../utils/getCountries.tsx"
 import { Country } from "../../utils/getCountries.tsx"
 import CountryCards from "./CountryCards.tsx"
-import { useNavigate, Router, Route, Link, useLocation, useSearchParams } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 const SearchCountries = () => {
     const [inputValue, setInputValue] = useState("")
