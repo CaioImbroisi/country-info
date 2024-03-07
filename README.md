@@ -21,13 +21,13 @@ Este histórico esta disponível para download em CSV.
 ## Instalando
 Para instalar o <country-info> basta clonar o repositório e após isso utilize o comando:
 ```
-<npm install>
+npm install
 ```
 Em seguida inicie-o localmnete utilizando o comando:
 ```
-<npm start>
+npm start
 ```
 ou
 ```
-<npm run devs>
+npm run devs
 ```
