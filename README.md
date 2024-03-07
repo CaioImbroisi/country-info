@@ -32,5 +32,5 @@ npm start
 ```
 ou
 ```
-npm run devs
+npm run dev
 ```
