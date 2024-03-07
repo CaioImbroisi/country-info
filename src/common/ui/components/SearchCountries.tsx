@@ -27,7 +27,7 @@ const SearchCountries = () => {
     const search = async () => {
         try {
             setErrorMsg("")
-            //URLParams utiliza a url atual para determinar parametro na guncao getCountries
+            //URLParams utiliza a url atual para determinar parametro na gunção getCountries 
             const URLParams = new URLSearchParams(location.search);
             const [response]: any = await getCountries(!inputValue && location.search ? (URLParams.get('s')) : (inputValue))
             setCountry(response)
