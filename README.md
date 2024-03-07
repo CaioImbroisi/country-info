@@ -25,5 +25,9 @@ Para instalar o <country-info> basta clonar o repositório e após isso utilize 
 ```
 Em seguida inicie-o localmnete utilizando o comando:
 ```
-<npm start> ou <npm run dev>
+<npm start>
+```
+ou
+```
+<npm run devs>
 ```
