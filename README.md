@@ -28,7 +28,8 @@ Para instalar o <country-info> basta clonar o repositório
 ```
 SSH: git@github.com:CaioImbroisi/country-info.git
 ```
-
+e executar o comando:
+```
 npm install
 ```
 Em seguida inicie-o localmnete utilizando o comando:
