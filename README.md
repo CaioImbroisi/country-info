@@ -21,9 +21,14 @@ em forma de tabela, mostrando os países já pesquisados e também um link diret
 
 Este histórico esta disponível para download em CSV.
 
+! A aplicação não esta totalmente adaptada para mobile !
+
 ## Instalando
-Para instalar o <country-info> basta clonar o repositório e após isso utilize o comando:
+Para instalar o <country-info> basta clonar o repositório 
 ```
+SSH: git@github.com:CaioImbroisi/country-info.git
+```
+
 npm install
 ```
 Em seguida inicie-o localmnete utilizando o comando:
