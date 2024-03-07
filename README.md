@@ -34,3 +34,5 @@ ou
 ```
 npm run dev
 ```
+O projeto provavelmente será iniciado na porta 3000 (http://localhost:3000)
+Fique atento ao console em caso de problemas na porta 3000, a aplicação tentará utilizar outra porta.
