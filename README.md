@@ -45,4 +45,4 @@ O projeto provavelmente será iniciado na porta 3000 (http://localhost:3000).
 ## Problemas?
 Em caso de problemas para executar localmente, verifique se existe algum caractere após "http://localhost:3000" e remova-o, mantendo apenas ""http://localhost:3000".
 
-Fique atento ao console em caso de problemas na porta 3000, a aplicação tentará utilizar outra porta.
+Fique atento ao console em caso existam problemas na porta 3000, a aplicação tentará utilizar outra porta.
